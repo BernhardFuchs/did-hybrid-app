@@ -1,5 +1,7 @@
 {
   "name": "did-hybrid-app",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
