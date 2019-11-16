@@ -1,0 +1,43 @@
+{
+  "jobId": null,
+  "didState": {
+    "identifier": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD",
+    "state": "finished",
+    "secret": {
+      "privateKeys": {
+        "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD#z6MkgfBBKCfN4nZc26m9YcusLUYavH9tdiPxhLccik9bUMMJ": {
+          "passphrase": null,
+          "id": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD#z6MkgfBBKCfN4nZc26m9YcusLUYavH9tdiPxhLccik9bUMMJ",
+          "controller": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD",
+          "type": "Ed25519VerificationKey2018",
+          "privateKeyBase58": "2cEqJbKTXtWmVXcqtWh1VnsuwqW1di2qnGaDPNnzzKDh8H6ff6wFFTYVNWWLyVFcXpdJRGp8NpDAe7Tg2mbhFpNt",
+          "publicKeyBase58": "3Cv8ixQvjF58ubvSs3x2VNzb6ht3Dq9c1KhgtUBaZ8Zv"
+        },
+        "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD#z6Mkphoi3jGGn8Tfm5dSWSvV1tHH5xxxvdTKNdGaLqmJjZGQ": {
+          "passphrase": null,
+          "id": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD#z6Mkphoi3jGGn8Tfm5dSWSvV1tHH5xxxvdTKNdGaLqmJjZGQ",
+          "controller": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD",
+          "type": "Ed25519VerificationKey2018",
+          "privateKeyBase58": "2qhzQeZsgvcBPEyzNzwdbNeobJ6aUjLHXT14uDYmiVfi4we5k6KQ26BU4ZCoLaGLsWXMGPLaa5CdQEfvJLWgYqAk",
+          "publicKeyBase58": "BFYfTV1qSayCeanjpsxeAnjHGPh7WkCxgcMeWZoHpLV2"
+        },
+        "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD#z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD": {
+          "passphrase": null,
+          "id": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD#z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD",
+          "controller": "did:v1:test:nym:z6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD",
+          "type": "Ed25519VerificationKey2018",
+          "privateKeyBase58": "66RRvCDRimMmNWgr6EjHCMyaD9myeZqhZDx6qfXvztM7F78QjcQxZ1d5RZguFBqK886t9Z3XHEmCXrv7KTJqj8Qw",
+          "publicKeyBase58": "FKhXMm2fd52RBmoLP4xN97Lcrrm3fd3PJiJyrQY18Xmq"
+        }
+      }
+    }
+  },
+  "registrarMetadata": {
+    "driverId": "did:v1",
+    "driver": "HttpDriver",
+    "duration": 3014
+  },
+  "methodMetadata": {
+    "didDocumentLocation": "/root/.dids/veres/test/did%3Av1%3Atest%3Anym%3Az6MktmxZx1H6xcWtJGe34dvCzCtcgS2u5WHjzjDuggW23kZD.json"
+  }
+}
