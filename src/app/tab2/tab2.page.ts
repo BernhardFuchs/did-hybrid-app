@@ -22,6 +22,10 @@ export class Tab2Page implements OnDestroy {
       .subscribe((text: string) => this.registerService.register(text));
   }
 
+  public useMockData() {
+    this.registerService.register('using mock data');
+  }
+
   ngOnDestroy(): void {
     this.scanSubscription.unsubscribe();
   }
