@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ResolveService } from './resolve.service';
 
 @Component({
   selector: 'app-tab3',
@@ -6,7 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['tab3.page.scss']
 })
 export class Tab3Page {
+  constructor(private resolveService: ResolveService) {}
 
-  constructor() {}
-
+  public resolve() {
+    this.resolveService
+      .resolveForStoredDid()
+      .subscribe(id => console.log('###ID', id));
+  }
 }
