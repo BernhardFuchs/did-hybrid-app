@@ -10,7 +10,6 @@ export class ResolveApi implements Api {
   readonly url: string = 'https://uniresolver.io/1.0/identifiers/';
 
   fetch(options?: { identifier }): Observable<any> {
-    console.log('###did api', options.identifier);
     return this.http.get(`${this.url}${options.identifier}`);
   }
 

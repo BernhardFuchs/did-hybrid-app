@@ -16,7 +16,7 @@ export class ResolveService {
   public resolveForStoredDid(): Observable<any> {
     return this.storageService.getIdentifier().pipe(
       switchMap((identifier: string) => {
-        console.log('###did service', identifier);
+        console.log('Resolving Did Document for', identifier);
         return this.resolveApi.fetch({ identifier });
       })
     );
