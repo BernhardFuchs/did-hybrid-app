@@ -23,7 +23,9 @@ export class Tab2Page implements OnDestroy {
   }
 
   public useMockData() {
-    this.registerService.register('using mock data');
+    this.registerService
+      .register('using mock data')
+      .subscribe(result => console.log('###Storage successful ', result));
   }
 
   ngOnDestroy(): void {
