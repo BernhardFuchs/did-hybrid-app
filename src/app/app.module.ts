@@ -9,8 +9,8 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
-import { RegisterApi } from './register.api';
-import { RegisterMockApi } from './register.mock.api';
+import { RegisterApi } from './tab2/register.api';
+import { RegisterMockApi } from './tab2/register.mock.api';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({

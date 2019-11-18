@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { RegisterApi } from './register.api';
 import { switchMap } from 'rxjs/operators';
-import { StorageService } from './storage.service';
+import { StorageService } from '../shared/storage.service';
 import { Observable } from 'rxjs';
 
 @Injectable({
