@@ -1,5 +1,5 @@
 import { Component, OnDestroy } from '@angular/core';
-import { RegisterService } from '../register.service';
+import { RegisterService } from './register.service';
 import { ScannerService } from './scanner.service';
 import { Subscription } from 'rxjs';
 

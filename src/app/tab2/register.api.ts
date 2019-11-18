@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Api } from './api.interface';
+import { Api } from '../shared/api.interface';
 
 @Injectable({
   providedIn: 'root'
