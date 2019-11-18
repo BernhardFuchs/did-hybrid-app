@@ -12,6 +12,6 @@ export class Tab3Page {
   public resolve() {
     this.resolveService
       .resolveForStoredDid()
-      .subscribe(id => console.log('###ID', id));
+      .subscribe(id => console.log('Did Document', id));
   }
 }
