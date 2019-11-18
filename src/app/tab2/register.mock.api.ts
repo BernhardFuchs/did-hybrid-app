@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
 import { Api } from '../shared/api.interface';
-import * as data from '../../assets/example-response.json';
+import * as data from '../../assets/register-test-response.json';
 import { map } from 'rxjs/operators';
 
 @Injectable({
