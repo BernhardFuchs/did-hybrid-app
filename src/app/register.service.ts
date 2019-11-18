@@ -1,5 +1,8 @@
 import { Injectable } from '@angular/core';
 import { RegisterApi } from './register.api';
+import { switchMap } from 'rxjs/operators';
+import { StorageService } from './storage.service';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -13,12 +16,19 @@ export class RegisterService {
     addPublicKeys: [],
     addAuthentications: []
   };
-  constructor(private api: RegisterApi) {}
+  constructor(
+    private api: RegisterApi,
+    private storageService: StorageService
+  ) {}
 
-  public register(url: string) {
-    console.log('###Register for url: ', url);
-    this.api
+  public register(url: string): Observable<boolean> {
+    console.log('Register with url: ', url);
+    return this.api
       .fetch({ body: this.body })
-      .subscribe(result => console.log('###Result', result));
+      .pipe(
+        switchMap(result =>
+          this.storageService.setIdentifier(result.didState.identifier)
+        )
+      );
   }
 }
